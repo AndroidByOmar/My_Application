@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045" />
+        app:layout_constraintVertical_bias="0.288" />
 
     <Button
         android:id="@+id/button"
@@ -44,5 +44,34 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.458"
         tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/txt22"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textMultiLine|textPersonName"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="30dp"
+        android:foreground="@drawable/omar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
